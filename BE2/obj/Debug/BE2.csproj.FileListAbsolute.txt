@@ -81,3 +81,7 @@ Z:\Projects\WebBE-HK1\BE2\obj\Debug\BE2.csproj.CoreCompileInputs.cache
 Z:\Projects\WebBE-HK1\BE2\obj\Debug\BE2.csproj.Up2Date
 Z:\Projects\WebBE-HK1\BE2\obj\Debug\BE2.dll
 Z:\Projects\WebBE-HK1\BE2\obj\Debug\BE2.pdb
+Z:\Projects\WebBE-HK1\BE2\bin\PagedList.dll
+Z:\Projects\WebBE-HK1\BE2\bin\PagedList.Mvc.dll
+Z:\Projects\WebBE-HK1\BE2\bin\PagedList.xml
+Z:\Projects\WebBE-HK1\BE2\bin\PagedList.Mvc.xml
