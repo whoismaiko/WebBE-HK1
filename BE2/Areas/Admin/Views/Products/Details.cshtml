@@ -1,0 +1,28 @@
+﻿@model BE2.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<head>
+    <style>
+        img {
+            height: 250px;
+            max-width: 250px;
+        }
+    </style>
+</head>
+
+<h2>Sản phẩm</h2>
+
+<div>
+    <h4>Chi tiết sản phẩm</h4>
+    @Html.Partial("PVProdInfo", Model)
+    <div style="padding:10px">
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ProductID }, new { @class = "btn btn-primary btn-sm" })
+        @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-primary btn-sm" })
+    </div>
+    <p>
+
+    </p>
