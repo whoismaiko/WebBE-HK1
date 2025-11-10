@@ -1,33 +1,55 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Customer Home Page";
+    <link rel="stylesheet" type="text/css" href="~/Content/myStyle/CustomerHome.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
-
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
+<header>
+    <div class="top-bar">
+        <div class="container">
+            <div class="logo">
+                <span class="amazon-logo">Shopee</span>
+            </div>
+            <div class="search-bar">
+                <select class="category-select">
+                    <option>All</option>
+                    <option>Books</option>
+                    <option>Electronics</option>
+                    <option>Home</option>
+                </select>
+                <input type="text" placeholder="Search Amazon">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-right">
+                <div class="language">
+                    <i class="fas fa-globe"></i> EN
+                </div>
+                <div class="account">
+                    <span>Hello, Sign in</span>
+                    <strong>Account & Lists</strong>
+                </div>
+                <div class="orders">
+                    <span>Returns</span>
+                    <strong>& Orders</strong>
+                </div>
+                <div class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
     </div>
-</main>
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><i class="fas fa-bars"></i> All</li>
+                <li>Today's Deals</li>
+                <li>Prime Video</li>
+                <li>Registry</li>
+                <li>Gift Cards</li>
+                <li>Customer Service</li>
+                <li>Sell</li>
+            </ul>
+        </div>
+    </nav>
+</header>
